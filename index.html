@@ -1,23 +1,49 @@
----
-layout: default
-title: name: Christian Sarason -- software, oceans, and product management
-markdown: kramdown
----
-<div class="blurb">
-	<h1>Christian Sarason</h1>
-		<p>A software product manager who achieves success via two major strengths: technical excellence
-        	paired with a knack for translating customer needs into crisp requirements for software teams.
-        	Excellent team leader, facilitating effective communication among cross-functional groups and 
-		partners. Expert communicator and teacher via online presentations and interactive software 
-		demonstrations. Experienced agile product owner and scrum master in both startup and large organizations.</p>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Christian P. Sarason: Science, Education and Product.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+ 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  </head>
+  <body>
+   <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+<!--simple map display from Mapbox-->
 
-	<h2>Specialties</h2> 
-		<p>Agile software development and product management in renewable energy, geospatial and digital 
-		media space. Strong experience with agile product development and organizational change. Customer 
-		focused product development and excellent high-touch customer support skills. Software development 
-		with Python and MATLAB, black box hacking with C and FORTRAN. Basic development in HTML5, Node.js, 
-		JavaScript, and Android apps. Familiar with Unity, XML, WMS, GeoJSON, and various web mapping and 
-		CAD protocols. *nix system administration in one form or another for a wide variety of systems. 
-		SME in scientific computing and visualization, geospatial technology, and data integration.</p>
-</div><!-- /.blurb -->
-	
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rsvp.min.js"></script>
+    <script src="js/kinvey-html5-sdk.min.js"></script>
+    <script src="js/app.js"></script>
+    
+   <div id="map"><h1>Sea It Rise, A Coastal Resiliency Planner</h1>
+      <h2>The Problem</h2>
+      <p><img src="img/menemsha-tex.png" align="right" /></img>
+          Rising seas threaten the infrastructure needed for jobs, industry, recreation and everyday life. Roads, bridges, subways, port facilities, piers, docks, oil and gas wells, power (including nuclear!) plants, sewage treatment plants, coastal levies -- the list is practically endless -- are all at risk from sea level rise. Rising seas threaten fish habitat, including coral reefs and mangrove forests, and freshwater aquifers. Rising seas are leading to rapid coastal erosion of cliffs and dunes in some local shoreline regions and affect shoreline access for recreational activities. The seas are rising and will rise faster later this century. The historical data is clear and the scientific consensus is unequivocal. Even so, the rate of change is small, and the desire to adapt to sea level increase is not overwhelming. This is unfortunate because sea level rise directly affects public safety, local fisheries, shipping and trade. Indeed, since human society has flourished during a period of relative sea level stability, almost all of our coastal infrastructure and livelihood is built around the current height of the ocean.
+      </p>
+      <h2>The HeroX Challenge</h2>
+      <p>
+       A wealth of ocean data has been and is being collected. Many of the datasets are open, yet very few are being used for resource management, business, or conservation. Most businesses, let alone individuals, do not have the time or ability to translate ocean data into actionable information, yet large industries and millions of people rely on the ocean for their livelihoods and well-being.
+       </p>
+       <p>So long as ocean data remain disconnected from services that people and markets can use, we will be unable to engage the numbers of actors needed to address critical ocean challenges. Data collection is not evenly distributed across the ocean -- some regions are in need of data acquisition, a need that could be addressed through the development of demand for data services, which will in turn drive demand for data collection tools. Overall, there is a market failure for meaningful data services, and the time is ripe for market development.  </p>
+       <p>You can read more about our HeroX submission on our <a href="https://herox.com/bigoceanbutton/entry/15117">application
+           page</a>.
+       </p>
+      <h2>The Data and Map Technology</h2>
+      <h3>NOAA Coastal Planning Sea Level Modeling</h3>
+       <p>Data for the sea level rise overlay shown in our app are from the <a href="https://coast.noaa.gov/">NOAA Office for 
+           Coastal Management</a>. Modeling of relative sea level rise is complicated, and requires more than just moving 
+           sea level up by some number. NOAA provides these data
+           for free via a WMS server for easy integration.
+    </div> 
+  </body>
+</html>
