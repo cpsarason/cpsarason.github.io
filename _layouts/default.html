@@ -16,7 +16,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="{{ '/assets/images/avatar2.png'}}">
+        <a href="{{'/'}}"><img src="{{ '/assets/images/avatar2.png'}}"></a>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -39,8 +39,8 @@
             <a href='https://www.linkedin.com/in/christiansarason'><img src="{{ '/assets/images/linkedin_28px.png' }}" ></a>
           </div>
           </li>
-          <li><a href="docs/christian-sarason-cv-2018.pdf"><strong>CV (PDF)</strong></a></li>
-          <li><a href="docs/christian-sarason-cv-2018.md"><strong>CV (text)</strong></a></li>
+          <li><a href="{{'/docs/christian-sarason-cv-2018.pdf'}}"><strong>CV (PDF)</strong></a></li>
+          <li><a href="{{'/docs/christian-sarason-cv-2018.md'}}"><strong>CV (text)</strong></a></li>
         </ul>
 
       </header>
