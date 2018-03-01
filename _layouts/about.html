@@ -16,16 +16,46 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{'/'}}"><img src="{{ '/assets/images/avatar_50px.png'}}"></a>
-        <p>{{ site.title }} | {{ site.description | default: site.github.project_tagline }}</p>
+        <a href="{{'/'}}"><img src="{{ '/assets/images/avatar2.png'}}"></a>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+<!--        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        {% endif %}
+
+        {% if site.show_downloads %}
           <ul>
-            <li><a href="{{'/maps/index.html'}}">Maps</a></li>
-            <li><a href="{{'/notebooks/index.html'}}">Notebooks</a></li>
-            <li><a href="{{'/blog/index.html'}}">Blog</a></li>
+            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
-     </header>
+	  {% endif %} -->
+        <ul>
+          <li><i>Maps</i></li>
+          <li><i>Notebooks</i></li>
+          <li><i>Blog</i></li>
+        </ul>
+
+      </header>
       <section>
+        <h2> Details </h2>
+        <ul>
+          <li><a href='https://www.linkedin.com/in/christiansarason'>LinkedIn</a>
+              <a href="{{'/docs/christian-sarason-cv-2018.pdf'}}"> | (PDF) |</a>
+              <a href="{{'/docs/christian-sarason-cv-2018.md'}}"> | (text)</a></li>
+        </ul>
+      <h2>Assorted Musings</h2>
+      <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
 
       {{ content }}
 
