@@ -40,7 +40,7 @@ bills. These days? Easy peasy.
 First, Planet has a great github repository with everything you need, including
 docs at:
 
-https://github.com/planetlabs/notebooks
+[https://github.com/planetlabs/notebooks](https://github.com/planetlabs/notebooks)
 
 Note the awesomesauce that is Docker to solve the dependency problem --- I am so
 used to the README saying things like, "installation: make all" ... and then
@@ -49,7 +49,8 @@ docker command and wait a bit as it downloads everything you need. So sweet. As
 I was typing this, I got distracted and started browsing the notebooks on GitHub.
 But running it interactively is the whole point!
 
-<<fires up jupyter notebook according to the instructions provided>>
+><<fires up jupyter notebook according to the instructions provided>>
+
 
 ## 10 minutes later
 
