@@ -3,6 +3,7 @@ layout: post
 author: Chistian P. sarason
 date: 2018-02-28
 title: Playing with Planet, Inc.
+tags: living-in-the-future jupyter remote-sensing tech4good
 ---
 
 ## Satellite imagery for fun an profit
@@ -69,7 +70,7 @@ To make this work I just worked through the notebook example, changed the geojso
 to be different (zoomed in on my fair island of origin) and plowed forward.
 This is really going to be a hoot!
 
-![test_image]({{"/assets/images/2018-03-05-post-geojson.io-map-example.png" "Screenshot from the helpful geojson.io site with coverages from Planet shown" |absolute_url}})
+![MV with Planet Coverages]({{"/assets/images/2018-03-05-post-geojson.io-map-example.png" "Screenshot from the helpful geojson.io site with coverages from Planet shown" |absolute_url}})
 
 ## Application from the "Fun" side of the house: Surf Detection
 
@@ -91,7 +92,7 @@ If you look at the August 2017 summary image for Squibnocket, you'll notice that
 there is a nicely developed surf rolling in from the south and bending around
 Squibnocket point.
 
-![test_image]({{"/assets/images/planet-explorer-squibby-aug-2017.png" "Screenshot from Planet Explorer" |absolute_url}})
+![Squibby excerpt]({{"/assets/images/planet-explorer-squibby-aug-2017.png" "Screenshot from Planet Explorer" |absolute_url}})
 
 More on how I plan to use Planet's data to help build a "It was an Epic Day"
 tool in some future post!
