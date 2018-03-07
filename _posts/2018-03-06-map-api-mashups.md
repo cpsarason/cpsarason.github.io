@@ -7,6 +7,9 @@ tags: living-in-the-future jupyter tech4good maps
 ---
 
 ## Hacking the Planet, Inc. Ship Detector
+I started exploring the ["Ship Detector"](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
+jupyter notebook from Planet, Inc. and
+decided to tweak it a bit to make sure I understood what was going on.
 
 1. zoomed in on Elliot Bay w/ Planet Explorer.
 2. Dragged box around Elliot Bay to get georeference.
