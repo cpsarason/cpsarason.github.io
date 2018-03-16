@@ -6,9 +6,6 @@ layout: about
 
 I am a software product manager who achieves success via two major strengths — technical excellence paired with a knack for translating customer needs into crisp requirements for software teams.
 
-[Link to another page](another-page).
-
-
 ## [](#technical-specialties)Technical specialties
 
 Excellent team leader, facilitating effective communication among cross-functional groups and partners. Expert communicator and teacher via online presentations and interactive software demonstrations. Experienced agile product owner and scrum master in both startup and large organizations.
