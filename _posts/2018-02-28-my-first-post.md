@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Chistian P. sarason
+author: Christian P. Sarason
 date: 2018-02-28
 title: Experimenting with GitHub, Jekyll and autobuilding web pages
 ---

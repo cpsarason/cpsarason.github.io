@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Chistian P. sarason
+author: Christian P. Sarason
 date: 2018-03-06
 title: Mashing up Map applications, Part I
 tags: living-in-the-future jupyter tech4good maps

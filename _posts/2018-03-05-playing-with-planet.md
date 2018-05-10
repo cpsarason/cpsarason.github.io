@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Chistian P. sarason
+author: Christian P. Sarason
 date: 2018-02-28
 title: Playing with Planet, Inc.
 tags: living-in-the-future jupyter remote-sensing tech4good

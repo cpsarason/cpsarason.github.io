@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Chistian P. sarason
+author: Christian P. Sarason
 date: 2018-03-14
 title: Tapping into a geyser of deep sea data
 tags: living-in-the-future tech4good ocean visualization
