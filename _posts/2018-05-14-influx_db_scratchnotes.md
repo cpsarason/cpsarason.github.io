@@ -7,9 +7,9 @@ tags:  tech4good timeseries InfluxDB
 ---
 ## On ocean data, timeseries and the wrangling of observations
 
+![InfluxDB, a time series database]({{"/assets/images/influx_db_logo.png"}})
 
 > (warning: this post is kinda wonky and probably filled with far too many generalizations. YMMV)
-
 
 Ocean science is challenging for many different reasons. Some of these are
 fundamental: the ocean is always changing and responding to different inputs
@@ -102,6 +102,7 @@ all values in the measurement series that match your selection criteria.
 * field: intensity (100.9)
 * timestamp: 15263
 * tag: listener (Fritz)
+
 ```
 insert audiostream,listener=Fritz intensity=100.9 15263
 ```
