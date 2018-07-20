@@ -24,6 +24,8 @@ Working up Jupyter notebook for CAHW tutorial re. eclipse
 Using Restic to backup laptop to disk
 Using Restic to backup to S3 bucket (or google bucket, etc)
 Using Lamba function to strip EXIF data and shove into a file (write in golang?)
+Using InfluxDB to manage testdata for orcasound, orca locations and BeamReach ship tracks
+
 
 ## On product management
 
