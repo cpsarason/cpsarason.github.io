@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Christian P. Sarason
-date: 2018-07-21
+date: 2018-07-20
 title: Using Google Sheets API as a simple observation database
 tags:  tech4good timeseries mapbox OrcaMap
 ---
