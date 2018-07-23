@@ -9,7 +9,7 @@ tags:  tech4good timeseries mapbox OrcaMap
 
 ![A Google Sheet can be a quick and easy database for your map app]({{"/assets/images/orcamap-google-sheet-snap.png"}})
 
-Sometimes you just need something simple. In playing around with node.js and
+Sometimes you just need something simple. In playing around with Node.js and
 MapBox, so far I have just jammed everything into local geoJSON files and/or
 increased them in size with javascript. This makes it fast and easy to develop,
 but in some cases leads to *very bad things* (blowing up the size of the page,
@@ -18,15 +18,15 @@ for example, should you inadvertently keep appending to an array).
 I was inspired by a talk that I saw at the May 2018 [CUGOS](https://www.cugos.org)
 meeting, where [Sam Matthews](https://www.mapbox.com/about/team/sam-matthews/) gave
 a quick talk about using the Google Sheets API to save
-[geojson data to a spreadsheet.](https://github.com/cugos/gus-api). I thought
-it was a cool concept and I love Sam's quote that "spreadsheets are always my
-first default interface for data entry". Basically everyone knows how to use
+[geojson data to a spreadsheet.](https://github.com/cugos/gus-api) I thought
+it was a cool concept and I love Sam's admonition to practicality, "spreadsheets are always my
+default interface for data entry". Basically, everyone knows how to use
 at spreadsheet, so while things like [InfluxDB]({{"2018/05/14/influx_db_scratchnotes.html"|absolute_url}}) are super
 powerful and fun to play with, when developing a prototype to share out in the
 world, all of a sudden you need to manage user accounts, security, blah, blah,
 blah. I can do all that, but really just want a place where multiple users can
 share some prototype data and collaborate while we focus on the UX of the page
-instead of the nitty gritty.
+instead of the IT nitty gritty.
 
 Enter the Google Sheet API! It is pretty easy to get started, and has the benefit
 that you can have stuff password protected, with user management controlled by
