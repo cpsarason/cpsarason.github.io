@@ -31,4 +31,4 @@ Using InfluxDB to manage testdata for orcasound, orca locations and BeamReach sh
 
 Oceanographers as the world's best PM
 On applying agile techniques to graduate school/labs
-On working at the bleeding edge for projectsblo
+On working at the bleeding edge for projects
