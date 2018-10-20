@@ -46,3 +46,4 @@
 * figure out how to make a similar model of given bathymetry field
 * figure out "buoyancy" on sub/spaceship
 * work through example 
+
